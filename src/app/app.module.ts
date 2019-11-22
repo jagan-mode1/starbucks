@@ -8,12 +8,14 @@ import { QrCodeComponent } from './qr-code/qr-code.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { SignInComponent } from './sign-in/sign-in.component';
 import appRoutes from './app-routing.module';
+import { SurveyComponent } from './survey/survey.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     QrCodeComponent,
-    SignInComponent
+    SignInComponent,
+    SurveyComponent
   ],
   imports: [
     BrowserModule, 
